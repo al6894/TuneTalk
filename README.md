@@ -106,7 +106,7 @@ Original App Design Project
 
 ### [BONUS] Interactive Prototype
 
-![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://github.com/yerlandana/Capstone-Project/blob/main/RPReplay_Final1681106065.gif))
+![](https://github.com/yerlandana/Capstone-Project/blob/main/RPReplay_Final1681106065.gif)
 
 ## Schema 
 [This section will be completed in Unit 9]
