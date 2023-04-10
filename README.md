@@ -92,17 +92,15 @@ Original App Design Project
 
 ## Wireframes
 [hand sketched wireframes below]
-![](https://i.imgur.com/b2XcRE4.jpg)
+<img src="https://i.imgur.com/b2XcRE4.jpg" width="360" height="640"/>
 
 
 
 ### [BONUS] Digital Wireframes & Mockups
 
-<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%201.png" width="270" height="480"/>
-<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%202.png" width="270" height="480"/>
-<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%203.png" width="270" height="480"/>
-<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%204.png" width="270" height="480"/>
-<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%205.png" width="270" height="480"/>
+<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%201.png" width="360" height="640"/>    <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%202.png" width="360" height="640"/>
+<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%203.png" width="360" height="640"/>.   <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%204.png" width="360" height="640"/>
+<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%205.png" width="360" height="640"/>
 
 ### [BONUS] Interactive Prototype
 
