@@ -98,15 +98,15 @@ Original App Design Project
 
 ### [BONUS] Digital Wireframes & Mockups
 
-![login screen](https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%201.png)
-![register screen](https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%202.png)
-![main screen](https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%203.png)
-![comment song screen](https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%204.png)
-![add somment screen](https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%205.png)
+<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%201.png" width="270" height="480"/>
+<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%202.png" width="270" height="480"/>
+<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%203.png" width="270" height="480"/>
+<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%204.png" width="270" height="480"/>
+<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%205.png" width="270" height="480"/>
 
 ### [BONUS] Interactive Prototype
 
-![](https://github.com/yerlandana/Capstone-Project/blob/main/RPReplay_Final1681106065.gif)
+<img src="https://github.com/yerlandana/Capstone-Project/blob/main/RPReplay_Final1681106065.gif" width="360" height="640"/>
 
 ## Schema 
 [This section will be completed in Unit 9]
