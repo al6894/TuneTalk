@@ -12,7 +12,7 @@
 Original App Design Project
 ===
 
-# APP_NAME_HERE(songrate, musiclub, mclub..)
+# MusiClub(songrate, musiclub, mclub..)
 
 ## Table of Contents
 1. [Overview](#Overview)
