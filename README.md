@@ -98,6 +98,12 @@ Original App Design Project
 
 ### [BONUS] Digital Wireframes & Mockups
 
+![login screen](https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%201.png)
+![register screen](https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%202.png)
+![main screen](https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%203.png)
+![comment song screen](https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%204.png)
+![add somment screen](https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%205.png)
+
 ### [BONUS] Interactive Prototype
 
 ## Schema 
