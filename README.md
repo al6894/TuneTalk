@@ -1,6 +1,6 @@
 # [Codepath Group 32] Capstone Project
 
-### :small_blue_diamond: **Date:**  March 21, 2023
+### :small_blue_diamond: **Date:**  April 9, 2023
 
 ## :white_check_mark: Favorite Apps
 
@@ -12,7 +12,7 @@
 Original App Design Project
 ===
 
-# APP_NAME_HERE(songrate, musiclub,..)
+# APP_NAME_HERE(songrate, musiclub, mclub..)
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -30,7 +30,7 @@ Original App Design Project
 - **Mobile:** Many people listen to music on their phones so our app is convenient to use when the tab out of iTunes, Spotify, or whatever streaming service they use.
 - **Story:** More interactive way of finding better music based on community. Apps like Spotify recommend music but you do not see other people's opinions.
 - **Market:** Possible referral to itunes with a percentage deal if the song is purchased or downloaded
-- **Habit:** The average user will consume and create on this app. How frequently someone uses the app depends on how often they feel the urge to leave their opinion.There is definitely potential for users to use this app multiple times a week or even multiple times a day.
+- **Habit:** The average user will consume and create on this app. How frequently someone uses the app depends on how often they feel the urge to leave their opinion.There is definitely potential for users to use this app multiple times a week or even multiple times a day. Also, It will give an opportunity to grow faster as a new musician/singer.
 - **Scope:** The app will be in the mid-ranges in terms of technically difficulty. The Login and Signup screens will be fairly basic but the goal is to make the home search screen and review section the main feaures of the app.
 
 ## Product Spec
