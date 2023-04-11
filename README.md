@@ -105,13 +105,13 @@ Original App Design Project
 
 ### [BONUS2] Digital Wireframes & Mockups
 ![](https://i.imgur.com/FcQWrio.png)
-### [BONUS2] Interactive Prototype
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOquvvs8lRLZfTUnTPYpEY7%2FCapstone-Project%3Fnode-id%3D4-27%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2" allowfullscreen></iframe>
+
 
 
 ### [BONUS] Interactive Prototype
 
 <img src="https://github.com/yerlandana/Capstone-Project/blob/main/RPReplay_Final1681106065.gif" width="360" height="640"/>
+
 
 ## Schema 
 [This section will be completed in Unit 9]
