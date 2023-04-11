@@ -2,17 +2,17 @@
 
 ### :small_blue_diamond: **Date:**  April 9, 2023
 
-## :white_check_mark: Favorite Apps
+## :white_check_mark: MusicLova App
+
+Original App Design Project
+===
+
+# MusicLova: music rating and sharing app
 
 ### 1. An app that allows you to rate songs (like Rotten Tomatoes)
 #### - Rate songs based on lyrics, melody, etc. (could be out of 5 stars)
 #### - Maybe include a review section where people can write about their opinions too.
 #### - iTunes API or whatever we want
-
-Original App Design Project
-===
-
-# MusiClub(songrate, musiclub, mclub..)
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -101,6 +101,13 @@ Original App Design Project
 <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%201.png" width="360" height="640"/>    <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%202.png" width="360" height="640"/>
 <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%203.png" width="360" height="640"/>.   <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%204.png" width="360" height="640"/>
 <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%205.png" width="360" height="640"/>
+
+
+### [BONUS2] Digital Wireframes & Mockups
+![](https://i.imgur.com/FcQWrio.png)
+### [BONUS2] Interactive Prototype
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOquvvs8lRLZfTUnTPYpEY7%2FCapstone-Project%3Fnode-id%3D4-27%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2" allowfullscreen></iframe>
+
 
 ### [BONUS] Interactive Prototype
 
