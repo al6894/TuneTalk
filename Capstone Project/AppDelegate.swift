@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+<<<<<<< Updated upstream
         // TODO: Pt 1 - Initialize Parse SDK
 
         // Add the following values from your Parse server.
@@ -25,6 +26,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ParseSwift.initialize(applicationId: "9IxdkomqgdWGKpZCjEVSyfHoZsnI1alsIy7B8fxD",
                               clientKey: "U2LdUC2l6WcHRrFiaEb6iZiZdkZKhOAUGD5QbvvQ",
                               serverURL: URL(string: "https://parseapi.back4app.com")!)
+=======
+        
+        ParseSwift.initialize(applicationId: "tfMHBPeQemv297gZVMH666S0VEuW6MkpbdRGn9nc",
+                              clientKey: "hQo6KSfVOSKWGYvkM7hjMSD9uG7tcWtEVpdOi3sx",
+                              serverURL: URL(string: "https://parseapi.back4app.com")!)
+        
+        
+>>>>>>> Stashed changes
         return true
     }
 

@@ -19,11 +19,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+<<<<<<< Updated upstream
         
+=======
+
+>>>>>>> Stashed changes
         NotificationCenter.default.addObserver(forName: Notification.Name("login"), object: nil, queue: OperationQueue.main) { [weak self] _ in
             self?.login()
         }
@@ -37,7 +38,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             login()
         }
     }
+<<<<<<< Updated upstream
     
+=======
+>>>>>>> Stashed changes
     private func login() {
         let storyboard = UIStoryboard(name: Constants.storyboardIdentifier, bundle: nil)
         self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: Constants.feedNavigationControllerIdentifier)
@@ -45,7 +49,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     private func logOut() {
         // TODO: Pt 1 - Log out Parse user.
+<<<<<<< Updated upstream
         // This will also remove the session from the Keychain, log out of linked services and all future calls to current will return nil.
+=======
+>>>>>>> Stashed changes
         User.logout { [weak self] result in
 
             switch result {
@@ -67,6 +74,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 print("❌ Log out error: \(error)")
             }
         }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

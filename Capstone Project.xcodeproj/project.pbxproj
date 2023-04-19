@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EB3AB0129EF7C3700273DA3 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3AB0029EF7C3700273DA3 /* FeedViewController.swift */; };
 		A130D11C29E6311B00D08729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130D11B29E6311B00D08729 /* AppDelegate.swift */; };
 		A130D11E29E6311B00D08729 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130D11D29E6311B00D08729 /* SceneDelegate.swift */; };
-		A130D12029E6311B00D08729 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A130D11F29E6311B00D08729 /* ViewController.swift */; };
 		A130D12329E6311B00D08729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A130D12129E6311B00D08729 /* Main.storyboard */; };
 		A130D12529E6311C00D08729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A130D12429E6311C00D08729 /* Assets.xcassets */; };
 		A130D12829E6311C00D08729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A130D12629E6311C00D08729 /* LaunchScreen.storyboard */; };
@@ -21,10 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8EB3AB0029EF7C3700273DA3 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		A130D11829E6311B00D08729 /* Capstone Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capstone Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A130D11B29E6311B00D08729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A130D11D29E6311B00D08729 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A130D11F29E6311B00D08729 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A130D12229E6311B00D08729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A130D12429E6311C00D08729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A130D12729E6311C00D08729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EB3AAFF29EF7C0A00273DA3 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3AB0029EF7C3700273DA3 /* FeedViewController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 		A130D10F29E6311B00D08729 = {
 			isa = PBXGroup;
 			children = (
@@ -66,13 +74,12 @@
 		A130D11A29E6311B00D08729 /* Capstone Project */ = {
 			isa = PBXGroup;
 			children = (
+				8EB3AAFF29EF7C0A00273DA3 /* Feed */,
 				A130D12F29E6316100D08729 /* Models */,
 				A130D13029E6317800D08729 /* Login */,
-				A130D13129E631A600D08729 /* Feed */,
 				A130D13B29E6377100D08729 /* Extensions */,
 				A130D11B29E6311B00D08729 /* AppDelegate.swift */,
 				A130D11D29E6311B00D08729 /* SceneDelegate.swift */,
-				A130D11F29E6311B00D08729 /* ViewController.swift */,
 				A130D12129E6311B00D08729 /* Main.storyboard */,
 				A130D12429E6311C00D08729 /* Assets.xcassets */,
 				A130D12629E6311C00D08729 /* LaunchScreen.storyboard */,
@@ -96,13 +103,6 @@
 				A130D13429E631FD00D08729 /* SignUpViewController.swift */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		A130D13129E631A600D08729 /* Feed */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Feed;
 			sourceTree = "<group>";
 		};
 		A130D13B29E6377100D08729 /* Extensions */ = {
@@ -191,11 +191,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A130D13329E631DD00D08729 /* LoginViewController.swift in Sources */,
-				A130D12029E6311B00D08729 /* ViewController.swift in Sources */,
 				A130D13A29E635A600D08729 /* User.swift in Sources */,
 				A130D11C29E6311B00D08729 /* AppDelegate.swift in Sources */,
 				A130D11E29E6311B00D08729 /* SceneDelegate.swift in Sources */,
 				A130D13529E631FD00D08729 /* SignUpViewController.swift in Sources */,
+				8EB3AB0129EF7C3700273DA3 /* FeedViewController.swift in Sources */,
 				A130D13F29E637CA00D08729 /* ViewController + Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

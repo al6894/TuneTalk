@@ -229,6 +229,57 @@
             </objects>
             <point key="canvasLocation" x="218" y="4"/>
         </scene>
+        <!--Feed View Controller-->
+        <scene sceneID="nMU-Zt-Vlf">
+            <objects>
+                <viewController id="UPV-A6-1lO" customClass="FeedViewController" customModule="Capstone_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UXM-EZ-YMC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="here is your name!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wy2-Zr-LaP">
+                                <rect key="frame" x="81" y="141" width="261" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oZe-5s-ijY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HyH-Py-LWV">
+                        <barButtonItem key="leftBarButtonItem" title="Log out" id="Una-av-bgt">
+                            <connections>
+                                <action selector="onLogOUtTapped:" destination="UPV-A6-1lO" id="PVq-2l-G9D"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="name" destination="Wy2-Zr-LaP" id="Y5b-U6-BDK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="neP-y3-E5J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945.80152671755718" y="784.50704225352115"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HR4-fd-nUB">
+            <objects>
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="NTP-xM-2nM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1F0-Z7-U9j">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UPV-A6-1lO" kind="relationship" relationship="rootViewController" id="ZME-w7-z2c"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QP3-tK-zkm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="785"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
