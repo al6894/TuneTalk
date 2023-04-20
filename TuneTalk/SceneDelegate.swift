@@ -1,14 +1,14 @@
 //
 //  SceneDelegate.swift
-//  Capstone Project
+//  TuneTalk
 //
-//  Created by Andy Lee on 4/11/23.
+//  Created by Victoria Nunez on 4/19/23.
 //
 
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-    
+
     private enum Constants {
         static let loginNavigationControllerIdentifier = "LoginNavigationController"
         static let feedNavigationControllerIdentifier = "FeedNavigationController"
@@ -19,12 +19,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
+        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
+        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
-<<<<<<< Updated upstream
-        
-=======
 
->>>>>>> Stashed changes
         NotificationCenter.default.addObserver(forName: Notification.Name("login"), object: nil, queue: OperationQueue.main) { [weak self] _ in
             self?.login()
         }
@@ -33,26 +32,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             self?.logOut()
         }
 
-        // TODO: Pt 1 - Check for cached user for persisted log in.
+        // Check if a current user exists
         if User.current != nil {
             login()
         }
+
     }
-<<<<<<< Updated upstream
-    
-=======
->>>>>>> Stashed changes
+
     private func login() {
         let storyboard = UIStoryboard(name: Constants.storyboardIdentifier, bundle: nil)
         self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: Constants.feedNavigationControllerIdentifier)
     }
 
     private func logOut() {
-        // TODO: Pt 1 - Log out Parse user.
-<<<<<<< Updated upstream
         // This will also remove the session from the Keychain, log out of linked services and all future calls to current will return nil.
-=======
->>>>>>> Stashed changes
         User.logout { [weak self] result in
 
             switch result {
@@ -74,10 +67,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 print("❌ Log out error: \(error)")
             }
         }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -107,7 +97,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
-
 }
 

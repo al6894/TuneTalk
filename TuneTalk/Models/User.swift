@@ -1,8 +1,8 @@
 //
 //  User.swift
-//  Capstone Project
+//  TuneTalk
 //
-//  Created by Andy Lee on 4/11/23.
+//  Created by Victoria Nunez on 4/19/23.
 //
 
 import Foundation
@@ -23,4 +23,6 @@ struct User: ParseUser {
     var password: String?
     var authData: [String: [String: String]?]?
 
+    // Your custom properties.
+    // var customKey: String?
 }
