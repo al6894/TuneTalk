@@ -1,8 +1,8 @@
 //
-//  ViewController + Extensions.swift
-//  Capstone Project
+//  ViewController+Extensions.swift
+//  TuneTalk
 //
-//  Created by Andy Lee on 4/11/23.
+//  Created by Victoria Nunez on 4/19/23.
 //
 
 import UIKit
@@ -16,5 +16,4 @@ extension UIViewController {
         alertController.addAction(action)
         present(alertController, animated: true)
     }
-
 }

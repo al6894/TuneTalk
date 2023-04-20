@@ -1,11 +1,12 @@
 //
 //  SignUpViewController.swift
-//  Capstone Project
+//  TuneTalk
 //
-//  Created by Andy Lee on 4/11/23.
+//  Created by Victoria Nunez on 4/19/23.
 //
 
 import UIKit
+import ParseSwift
 
 class SignUpViewController: UIViewController {
 
@@ -13,11 +14,14 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
 
+    @IBOutlet weak var upperButton: CustomButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
+
     @IBAction func onSignUpTapped(_ sender: Any) {
+        upperButton.shake()
         // Make sure all fields are non-nil and non-empty.
         guard let username = usernameField.text,
               let email = emailField.text,
@@ -51,36 +55,14 @@ class SignUpViewController: UIViewController {
                 self?.showAlert(description: error.localizedDescription)
             }
         }
+
     }
+
 
     private func showMissingFieldsAlert() {
         let alertController = UIAlertController(title: "Opps...", message: "We need all fields filled out in order to sign you up.", preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default)
         alertController.addAction(action)
         present(alertController, animated: true)
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-    
-
-}
-extension UIViewController {
-    func hideKeyboardWhenTappedAround() {
-        let tap = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
-        tap.cancelsTouchesInView = false
-        view.addGestureRecognizer(tap)
-    }
-    
-    @objc func dismissKeyboard() {
-        view.endEditing(true)
     }
 }
