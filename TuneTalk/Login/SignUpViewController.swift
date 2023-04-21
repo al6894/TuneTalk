@@ -38,7 +38,6 @@ class SignUpViewController: UIViewController {
         newUser.username = username
         newUser.email = email
         newUser.password = password
-
         newUser.signup { [weak self] result in
 
             switch result {

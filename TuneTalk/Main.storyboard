@@ -254,6 +254,11 @@
                                                 <constraint firstItem="bJE-vy-msV" firstAttribute="leading" secondItem="0iY-pV-dj0" secondAttribute="leadingMargin" constant="16" id="fRa-hs-CxC"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="artistNameLabel" destination="Vih-GZ-qNg" id="bpZ-ew-JfM"/>
+                                            <outlet property="trackImageView" destination="8ur-rf-dk2" id="JS4-6W-ZqK"/>
+                                            <outlet property="trackNameLabel" destination="DS1-qJ-RBv" id="vbD-RG-KPm"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

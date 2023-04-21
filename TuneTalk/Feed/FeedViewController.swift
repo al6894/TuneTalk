@@ -131,9 +131,6 @@ class FeedViewController: UIViewController, UITableViewDataSource {
 //            detailViewController.post = post
 //        }
 //    }
-}
-
-extension FeedViewController {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
     }
