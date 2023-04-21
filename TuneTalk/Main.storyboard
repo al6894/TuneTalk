@@ -218,7 +218,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="bJE-vy-msV">
-                                                    <rect key="frame" x="20" y="11" width="257" height="100"/>
+                                                    <rect key="frame" x="36" y="27" width="318" height="113"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8ur-rf-dk2">
                                                             <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
@@ -228,30 +228,21 @@
                                                             </constraints>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="qi6-Cs-PKO">
-                                                            <rect key="frame" x="116" y="0.0" width="141" height="70"/>
+                                                            <rect key="frame" x="116" y="0.0" width="202" height="70"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DS1-qJ-RBv">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="141" height="33.666666666666664"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="202" height="33.666666666666664"/>
                                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vih-GZ-qNg">
-                                                                    <rect key="frame" x="0.0" y="49.666666666666664" width="141" height="20.333333333333336"/>
+                                                                    <rect key="frame" x="0.0" y="49.666666666666671" width="202" height="20.333333333333329"/>
                                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
-                                                            <constraints>
-                                                                <constraint firstItem="Vih-GZ-qNg" firstAttribute="top" secondItem="DS1-qJ-RBv" secondAttribute="bottom" constant="16" id="Mgc-z2-ZPa"/>
-                                                                <constraint firstAttribute="bottom" secondItem="Vih-GZ-qNg" secondAttribute="bottom" constant="16" id="VeR-EL-uAK"/>
-                                                                <constraint firstAttribute="trailing" secondItem="DS1-qJ-RBv" secondAttribute="trailing" constant="16" id="bVE-7o-LRB"/>
-                                                                <constraint firstItem="DS1-qJ-RBv" firstAttribute="leading" secondItem="qi6-Cs-PKO" secondAttribute="leading" constant="16" id="iTA-hK-EGv"/>
-                                                                <constraint firstAttribute="trailing" secondItem="Vih-GZ-qNg" secondAttribute="trailing" constant="16" id="oLM-z4-VgN"/>
-                                                                <constraint firstItem="DS1-qJ-RBv" firstAttribute="top" secondItem="qi6-Cs-PKO" secondAttribute="top" constant="16" id="oVw-qb-lXZ"/>
-                                                                <constraint firstItem="Vih-GZ-qNg" firstAttribute="leading" secondItem="qi6-Cs-PKO" secondAttribute="leading" constant="16" id="tTq-ZS-cLc"/>
-                                                            </constraints>
                                                         </stackView>
                                                     </subviews>
                                                 </stackView>
