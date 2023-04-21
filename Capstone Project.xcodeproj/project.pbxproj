@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D47C88329F1CECD0033B837 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 7D47C88229F1CECD0033B837 /* Nuke */; };
 		7D47C88629F1CEF30033B837 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7D47C88529F1CEF30033B837 /* Alamofire */; };
 		7D47C8A229F1CF100033B837 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D47C88829F1CF100033B837 /* Constants.swift */; };
 		7D47C8A329F1CF100033B837 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D47C88A29F1CF100033B837 /* PostViewController.swift */; };
@@ -28,6 +27,10 @@
 		7D47C8B229F1CF100033B837 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D47C89F29F1CF100033B837 /* LoginViewController.swift */; };
 		7D47C8B429F1CF100033B837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D47C8A129F1CF100033B837 /* SceneDelegate.swift */; };
 		A130D13829E6356C00D08729 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A130D13729E6356C00D08729 /* ParseSwift */; };
+		A1773A2C29F2393800FF2A18 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = A1773A2B29F2393800FF2A18 /* Nuke */; };
+		A1773A2E29F2393800FF2A18 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = A1773A2D29F2393800FF2A18 /* NukeExtensions */; };
+		A1773A3029F2393800FF2A18 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = A1773A2F29F2393800FF2A18 /* NukeUI */; };
+		A1773A3229F2393800FF2A18 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = A1773A3129F2393800FF2A18 /* NukeVideo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,9 +61,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1773A3029F2393800FF2A18 /* NukeUI in Frameworks */,
+				A1773A3229F2393800FF2A18 /* NukeVideo in Frameworks */,
+				A1773A2C29F2393800FF2A18 /* Nuke in Frameworks */,
+				A1773A2E29F2393800FF2A18 /* NukeExtensions in Frameworks */,
 				7D47C88629F1CEF30033B837 /* Alamofire in Frameworks */,
 				A130D13829E6356C00D08729 /* ParseSwift in Frameworks */,
-				7D47C88329F1CECD0033B837 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +152,7 @@
 			children = (
 				7D47C88729F1CF100033B837 /* TuneTalk */,
 				A130D11929E6311B00D08729 /* Products */,
+				A1773A2A29F2393800FF2A18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +162,13 @@
 				A130D11829E6311B00D08729 /* Capstone Project.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A1773A2A29F2393800FF2A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,8 +189,11 @@
 			name = "Capstone Project";
 			packageProductDependencies = (
 				A130D13729E6356C00D08729 /* ParseSwift */,
-				7D47C88229F1CECD0033B837 /* Nuke */,
 				7D47C88529F1CEF30033B837 /* Alamofire */,
+				A1773A2B29F2393800FF2A18 /* Nuke */,
+				A1773A2D29F2393800FF2A18 /* NukeExtensions */,
+				A1773A2F29F2393800FF2A18 /* NukeUI */,
+				A1773A3129F2393800FF2A18 /* NukeVideo */,
 			);
 			productName = "Capstone Project";
 			productReference = A130D11829E6311B00D08729 /* Capstone Project.app */;
@@ -489,11 +506,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7D47C88229F1CECD0033B837 /* Nuke */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7D47C88129F1CECD0033B837 /* XCRemoteSwiftPackageReference "Nuke" */;
-			productName = Nuke;
-		};
 		7D47C88529F1CEF30033B837 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7D47C88429F1CEF30033B837 /* XCRemoteSwiftPackageReference "Alamofire" */;
@@ -503,6 +515,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A130D13629E6356C00D08729 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
 			productName = ParseSwift;
+		};
+		A1773A2B29F2393800FF2A18 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D47C88129F1CECD0033B837 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		A1773A2D29F2393800FF2A18 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D47C88129F1CECD0033B837 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		A1773A2F29F2393800FF2A18 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D47C88129F1CECD0033B837 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		A1773A3129F2393800FF2A18 /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D47C88129F1CECD0033B837 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

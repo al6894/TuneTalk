@@ -7,6 +7,7 @@
 
 import UIKit
 import Nuke
+import Alamofire
 
 class PostCell: UITableViewCell {
 
@@ -29,6 +30,6 @@ class PostCell: UITableViewCell {
         // TODO: Pt 1 - Configure Post Cell
         trackNameLabel.text = post.trackName
         artistNameLabel.text = post.artistName
-//        Nuke.loadImage(with: post.artworkUrl100, into: trackImageView)
+        //Nuke.loadImage(with: post.artworkUrl100, into: trackImageView)
     }
 }

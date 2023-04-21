@@ -19,7 +19,8 @@ class FeedViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        // Create a URL for the request
+        // Create a URL for the request (Currently only 50 songs in this)
+        // I am not sure how to grab the whole song library yet - Andy
         let url = URL(string: "https://itunes.apple.com/search?term=blackpink&attribute=artistTerm&entity=song&media=music")!
 
         // Use the URL to instantiate a request
