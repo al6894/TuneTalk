@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import PhotosUI
 import ParseSwift
 
 class PostViewController: UIViewController {
@@ -42,7 +41,3 @@ class PostViewController: UIViewController {
     }
 
 }
-
-// TODO: Pt 1 - Add PHPickerViewController delegate and handle picked image.
-
-

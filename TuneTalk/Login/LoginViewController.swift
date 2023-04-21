@@ -13,10 +13,9 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
-
     @IBOutlet weak var topCustomButton: CustomButton!
-    
     @IBOutlet weak var bottomCustomButton: CustomButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         addActionToBottomButton()

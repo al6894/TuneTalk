@@ -9,10 +9,17 @@ import Foundation
 
 // TODO: Pt 1 - Import Parse Swift
 
+struct PostAPIResponse: Decodable {
+    let results : [Post]
+}
 
-// TODO: Pt 1 - Create Post Parse Object model
-// https://github.com/parse-community/Parse-Swift/blob/3d4bb13acd7496a49b259e541928ad493219d363/ParseSwift.playground/Pages/1%20-%20Your%20first%20Object.xcplaygroundpage/Contents.swift#L33
+struct Post : Decodable {
+    let trackName: String
+    let artistName: String
+    let artworkUrl100: URL
 
-struct Post {
-    
+    // Detail properties
+//    let collectionName: String
+//    let primaryGenreName: String
+//    let releaseDate: Date
 }

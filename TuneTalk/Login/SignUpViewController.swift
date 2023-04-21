@@ -13,11 +13,10 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
-
     @IBOutlet weak var upperButton: CustomButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
     @IBAction func onSignUpTapped(_ sender: Any) {
@@ -57,7 +56,6 @@ class SignUpViewController: UIViewController {
         }
 
     }
-
 
     private func showMissingFieldsAlert() {
         let alertController = UIAlertController(title: "Opps...", message: "We need all fields filled out in order to sign you up.", preferredStyle: .alert)

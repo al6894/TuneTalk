@@ -70,20 +70,20 @@
 		7D47C88729F1CF100033B837 /* TuneTalk */ = {
 			isa = PBXGroup;
 			children = (
-				7D47C88829F1CF100033B837 /* Constants.swift */,
-				7D47C88929F1CF100033B837 /* Post */,
-				7D47C88B29F1CF100033B837 /* CustomButton.swift */,
+				7D47C89929F1CF100033B837 /* AppDelegate.swift */,
+				7D47C8A129F1CF100033B837 /* SceneDelegate.swift */,
 				7D47C88C29F1CF100033B837 /* Assets.xcassets */,
-				7D47C88D29F1CF100033B837 /* Models */,
 				7D47C89029F1CF100033B837 /* LaunchScreen.storyboard */,
 				7D47C89229F1CF100033B837 /* Main.storyboard */,
-				7D47C89329F1CF100033B837 /* Extensions */,
-				7D47C89629F1CF100033B837 /* Feed */,
-				7D47C89929F1CF100033B837 /* AppDelegate.swift */,
-				7D47C89A29F1CF100033B837 /* Fonts */,
+				7D47C88D29F1CF100033B837 /* Models */,
 				7D47C89D29F1CF100033B837 /* Login */,
+				7D47C88929F1CF100033B837 /* Post */,
+				7D47C89629F1CF100033B837 /* Feed */,
+				7D47C89329F1CF100033B837 /* Extensions */,
+				7D47C89A29F1CF100033B837 /* Fonts */,
+				7D47C88829F1CF100033B837 /* Constants.swift */,
+				7D47C88B29F1CF100033B837 /* CustomButton.swift */,
 				7D47C8A029F1CF100033B837 /* Info.plist */,
-				7D47C8A129F1CF100033B837 /* SceneDelegate.swift */,
 			);
 			path = TuneTalk;
 			sourceTree = "<group>";
