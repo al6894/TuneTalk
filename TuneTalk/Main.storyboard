@@ -387,7 +387,7 @@
         <!--TUNETALK-->
         <scene sceneID="vVu-AI-8n8">
             <objects>
-                <viewController id="4vV-FJ-B6B" customClass="SongDetailViewController" customModule="Capstone_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4vV-FJ-B6B" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="073-fZ-Ubt">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -432,9 +432,6 @@
                                         </tableViewCellContentView>
                                         <gestureRecognizers/>
                                         <connections>
-                                            <outlet property="artistNameLabel" destination="pez-41-UdU" id="zTp-E4-a4N"/>
-                                            <outlet property="trackImageView" destination="OEg-EK-HsR" id="Mds-i0-ac2"/>
-                                            <outlet property="trackNameLabel" destination="B2W-ff-ouz" id="WeU-te-35o"/>
                                             <outletCollection property="gestureRecognizers" destination="iX4-ud-Yzc" appends="YES" id="E28-xQ-2MF"/>
                                         </connections>
                                     </tableViewCell>
@@ -532,7 +529,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="oL8-b8-bAN"/>
+        <segue reference="DF1-FY-KX8"/>
         <segue reference="K1D-pp-69z"/>
     </inferredMetricsTieBreakers>
     <resources>
