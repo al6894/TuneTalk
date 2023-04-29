@@ -17,7 +17,7 @@ struct Post : Decodable {
     let trackName: String
     let artistName: String
     let artworkUrl100: URL
-    let rating: Float
+//    let rating: Float
 
     // Detail properties
 //    let collectionName: String
