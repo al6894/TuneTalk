@@ -2,8 +2,6 @@
 
 ### **Date:**  April 9, 2023
 
-## TuneTalk App
-
 Original App Design Project
 ===
 
