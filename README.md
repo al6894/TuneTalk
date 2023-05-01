@@ -40,10 +40,15 @@ Original App Design Project
 **Required Must-have Stories**
 
 [x] User can login
+
 [x] User can signup
+
 [] User can search for songs
+
 [x] User can rate songs
+
 [] User can leave comments and read other people's comments.
+
 
 **Optional Nice-to-have Stories**
 
