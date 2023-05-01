@@ -5,7 +5,8 @@
 Original App Design Project
 ===
 
-# TuneTalk: Music rating and sharing app (replaced placeholder name "MusicLova")
+# TuneTalk: 
+Music rating and sharing app (replaced placeholder name "MusicLova")
 
 ### 1. An app that allows you to rate songs (like Rotten Tomatoes)
 #### - Rate songs based on lyrics, melody, etc. (could be out of 5 stars)
