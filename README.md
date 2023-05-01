@@ -1,8 +1,8 @@
 # [Codepath Group 32] Capstone Project
 
-### :small_blue_diamond: **Date:**  April 9, 2023
+### **Date:**  April 9, 2023
 
-## :white_check_mark: MusicLova App
+## TuneTalk App
 
 Original App Design Project
 ===
@@ -41,9 +41,9 @@ Original App Design Project
 
 - [X] User can login
 - [X] User can singup
-- [] User can search for songs
+- [ ] User can search for songs
 - [X] User can rate songs
-- [] User can leave comments and read other people's comments.
+- [ ] User can leave comments and read other people's comments.
 
 
 **Optional Nice-to-have Stories**
