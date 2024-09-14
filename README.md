@@ -72,7 +72,6 @@ Music rating and sharing app (replaced placeholder name "MusicLova")
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
-
 * [Stream]
 
 **Flow Navigation** (Screen to Screen)
@@ -90,34 +89,18 @@ Music rating and sharing app (replaced placeholder name "MusicLova")
     * => Main Review Screen
 
 
-## Wireframes
-[hand sketched wireframes below]
-<img src="https://i.imgur.com/b2XcRE4.jpg" width="360" height="640"/>
-
-
-
-### [BONUS] Digital Wireframes & Mockups
+## Digital Wireframes & Mockups
 
 <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%201.png" width="360" height="640"/>    <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%202.png" width="360" height="640"/>
 <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%203.png" width="360" height="640"/>.   <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%204.png" width="360" height="640"/>
 <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%205.png" width="360" height="640"/>
 
 
-### [BONUS2] Digital Wireframes & Mockups
+### Digital Wireframes & Mockups
 ![](https://i.imgur.com/FcQWrio.png)
 
 
 
-### [BONUS] Interactive Prototype
+### Interactive Prototype
 
 <img src="https://github.com/yerlandana/Capstone-Project/blob/main/RPReplay_Final1681106065.gif" width="360" height="640"/>
-
-
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
