@@ -83,7 +83,3 @@ Music rating and sharing app
 
 ### Digital Wireframes & Mockups
 ![](https://i.imgur.com/FcQWrio.png)
-
-### Interactive Prototype
-
-<img src="https://github.com/yerlandana/Capstone-Project/blob/main/RPReplay_Final1681106065.gif" width="360" height="640"/>
