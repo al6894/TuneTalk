@@ -1,12 +1,5 @@
-# [Codepath Group 32] Capstone Project
-
-### **Date:**  April 9, 2023
-
-Original App Design Project
-===
-
 # TuneTalk: 
-Music rating and sharing app (replaced placeholder name "MusicLova")
+Music rating and sharing app
 
 ### 1. An app that allows you to rate songs (like Rotten Tomatoes)
 #### - Rate songs based on lyrics, melody, etc. (could be out of 5 stars)
@@ -40,7 +33,7 @@ Music rating and sharing app (replaced placeholder name "MusicLova")
 
 - [X] User can login
 - [X] User can singup
-- [ ] User can search for songs
+- [X] User can search for songs
 - [X] User can rate songs
 - [ ] User can leave comments and read other people's comments.
 
@@ -88,18 +81,8 @@ Music rating and sharing app (replaced placeholder name "MusicLova")
 * [Comment Section]
     * => Main Review Screen
 
-
-## Digital Wireframes & Mockups
-
-<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%201.png" width="360" height="640"/>    <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%202.png" width="360" height="640"/>
-<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%203.png" width="360" height="640"/>.   <img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%204.png" width="360" height="640"/>
-<img src="https://github.com/yerlandana/Capstone-Project/blob/main/iPhone%2014%20Pro%20-%205.png" width="360" height="640"/>
-
-
 ### Digital Wireframes & Mockups
 ![](https://i.imgur.com/FcQWrio.png)
-
-
 
 ### Interactive Prototype
 
